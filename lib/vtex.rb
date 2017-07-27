@@ -1,5 +1,8 @@
 require "vtex/version"
+require 'active_support/all'
+require 'resource_kit'
+require 'kartograph'
 
 module Vtex
-  # Your code goes here...
+  autoload :Client, 'vtex/client'
 end
