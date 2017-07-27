@@ -1,6 +1,6 @@
 # Vtex
 
-Vtex API ruby implementation
+Vtex API client ruby implementation
 
 ## Installation
 
@@ -18,9 +18,76 @@ Or install it yourself as:
 
     $ gem install vtex
 
+
 ## Usage
 
-TBD
+You'll need to gatter the following information from your VTex account
+
+- **X-VTEX-API-AppKey**
+
+	Email from a user with access to the API.
+
+- **X-VTEX-API-AppToken**
+
+	VTEXId password of the user with access to the API.
+
+- **Account name**
+
+	VTex account name.
+
+- **Environment**:
+	- Use `vtexcommercestable` for production
+	- Use `vtexcommmercebeta` for tests
+
+*Note: It's recommended that you create an specific user to access the API ([vtex-auth](http://help.vtex.com/en/faq/how-do-you-authenticate-in-the-api))*
+
+
+With all the information retrieve a client instance with it.
+
+```ruby
+client = Vtex::Client.new({ account_name: "demo",
+                            environment: "vtexcommercebeta",
+                            app_key: "api.user@email.com",
+                            app_token: "VTEXIdPassword" })
+```
+
+## Design
+
+VTex follows a design of resources as methods on the client. For example, for Products, you will call your client like this:
+
+```ruby
+client = Vtex::Client.new({ ... })
+client.products #=> ProductsResource
+
+```
+
+VTex will return PORO objects that contain the information provided by the API. For example:
+
+```ruby
+client.products.by_id(id: 1)
+# => Vtex::Product (Id:1, Name: "Guarda-Roupa Casal Lisboa 10 Portas 3 Gavetas - Araplac", ...)
+```
+
+*Note: Right now, Key Values are being used as they come from the API*
+
+# All Resources and actions.
+
+All resources, methods and properties are direct matches from the [VTex API](http://help.vtex.com/en/developer-docs)
+
+## Products resource
+
+Vtex API: [Catalog System - Product](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#ee16e494-d3b0-36f0-cfed-219aef3f155e)
+
+**Usage:**
+
+```ruby
+client = Vtex::Client.new({ ... })
+client.products #=> ProductsResource
+```
+
+**Actions supported:**
+
+* `client.products.by_id(id: 'id')`
 
 ## Development
 
