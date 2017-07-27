@@ -2,6 +2,8 @@
 
 Vtex API client ruby implementation
 
+[![Build Status](https://travis-ci.org/mumoc/vtex.svg?branch=master)](https://travis-ci.org/mumoc/vtex)
+
 ## Installation
 
 Add this line to your application's Gemfile:
