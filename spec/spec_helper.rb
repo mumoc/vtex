@@ -9,7 +9,9 @@ require 'webmock/rspec'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new(SimpleCov::Formatter::HTMLFormatter)
 
-Dir['./spec/support/**/*.rb'].each {|file| require file }
+Dir['./spec/support/**/*.rb'].each do |file|
+  require file
+end
 
 RSpec.configure do |config|
   config.order = :random
@@ -17,4 +19,6 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
+
+  config.include RequestStubHelpers
 end

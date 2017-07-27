@@ -28,7 +28,7 @@ RSpec.describe Vtex::Client do
 
   describe "#method_missing" do
     context "called with an existing method" do
-      xit do
+      it do
         expect{ client.products }.to_not raise_error
       end
     end
@@ -59,7 +59,7 @@ RSpec.describe Vtex::Client do
     end
 
     it "sets the connection url correctly" do
-      expect(client.connection.url_prefix.to_s).to eq("http://demo.test.com.br/api/catalog_system/")
+      expect(client.connection.url_prefix.to_s).to eq("http://demo.test.com.br/")
     end
 
     it "allows access to faraday instance" do

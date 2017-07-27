@@ -2,7 +2,7 @@ require 'faraday'
 
 module Vtex
   class Client
-    VTEX_API_BASE = "http://accountName.environment.com.br/api/catalog_system/"
+    VTEX_API_BASE = "http://accountName.environment.com.br"
 
     attr_reader :account_name, :environment, :app_key, :app_token
 
@@ -11,7 +11,6 @@ module Vtex
       @environment  = options[:environment]
       @app_key      = options[:app_key]
       @app_token    = options[:app_token]
-      self
     end
 
     def connection
@@ -22,6 +21,7 @@ module Vtex
 
     def self.resources
       {
+        products: ProductResource
       }
     end
 
