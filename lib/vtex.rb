@@ -9,10 +9,13 @@ module Vtex
   # Models
   autoload :Base, 'vtex/models/base'
   autoload :Product, 'vtex/models/product'
+  autoload :Category, 'vtex/models/category'
 
   # Resources
   autoload :ProductResource, "vtex/resources/product_resource"
+  autoload :CategoryResource, "vtex/resources/category_resource"
 
   # Mappings
   autoload :ProductMapping, "vtex/mappings/product_mapping"
+  autoload :CategoryMapping, "vtex/mappings/category_mapping"
 end
