@@ -9,6 +9,7 @@ module Vtex
   # Models
   autoload :Base, 'vtex/models/base'
   autoload :Product, 'vtex/models/product'
+  autoload :Brand, "vtex/models/brand"
 
   # Resources
   autoload :ProductResource, "vtex/resources/product_resource"
