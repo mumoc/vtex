@@ -91,6 +91,21 @@ client.products #=> ProductsResource
 
 * `client.products.by_id(id: 'id')`
 
+## Categories resource
+
+Vtex API: [Catalog System - Category](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#add37358-cfa2-a357-3281-265e3e49c3ec)
+
+**Usage:**
+
+```ruby
+client = Vtex::Client.new({ ... })
+client.categories #=> CategoriesResource
+```
+
+**Actions supported:**
+
+* `client.categories.by_id(id: 'id')`
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
