@@ -13,6 +13,7 @@ module Vtex
 
   # Resources
   autoload :ProductResource, "vtex/resources/product_resource"
+  autoload :ProductResource, "vtex/resources/brand_resource"
 
   # Mappings
   autoload :ProductMapping, "vtex/mappings/product_mapping"
