@@ -17,4 +17,5 @@ module Vtex
 
   # Mappings
   autoload :ProductMapping, "vtex/mappings/product_mapping"
+  autoload :BrandMapping, "vtex/mappings/brand_mapping"
 end
