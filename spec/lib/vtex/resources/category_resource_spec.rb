@@ -14,7 +14,7 @@ RSpec.describe Vtex::CategoryResource do
 
   describe "#tree" do
     it "returns tree of categories" do
-      stub_do_api('/api/catalog_system/pub/category/tree/2/', :get).to_return(body: api_fixture('categories/tree'))
+      stub_do_api('/api/catalog_system/pub/category/tree/2', :get).to_return(body: api_fixture('categories/tree'))
       tree = resource.tree(levels: 2)
       expect(tree).to be(tree)
     end
