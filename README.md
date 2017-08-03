@@ -91,7 +91,7 @@ client.products #=> ProductsResource
 
 * `client.products.by_id(id: 'id')`
 
-## Categories resource
+## Category and Brand resource
 
 Vtex API: [Catalog System - Category](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#add37358-cfa2-a357-3281-265e3e49c3ec)
 
@@ -99,12 +99,13 @@ Vtex API: [Catalog System - Category](https://documenter.getpostman.com/view/845
 
 ```ruby
 client = Vtex::Client.new({ ... })
-client.categories #=> CategoriesResource
+client.categories #=> CategoryAndBrandResource
 ```
 
 **Actions supported:**
 
-* `client.categories.by_id(id: 'id')`
+* `client.categories.category(id: 'id')`
+* `client.categories.category_tree(levels: 'number of levels')`
 
 ## Development
 
