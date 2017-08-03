@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe Vtex::CategoryResource do
+RSpec.describe Vtex::CategoryAndBrandResource do
   subject(:resource) { described_class.new(connection: connection) }
   include_context 'resources'
 

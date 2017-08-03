@@ -22,7 +22,7 @@ module Vtex
     def self.resources
       {
         products: ProductResource,
-        categories: CategoryResource
+        categories: CategoryAndBrandResource
       }
     end
 
