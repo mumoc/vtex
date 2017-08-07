@@ -10,7 +10,7 @@ module Vtex
       property :name, scopes: [:read]
       property :hasChildren, scopes: [:read]
       property :url, scopes: [:read]
-      property :children, scopes: [:read]
+      property :children, scopes: [:read], plural: true, include: CategoryMapping
     end
   end
 end
