@@ -99,13 +99,13 @@ Vtex API: [Catalog System - Category](https://documenter.getpostman.com/view/845
 
 ```ruby
 client = Vtex::Client.new({ ... })
-client.categories #=> CategoryAndBrandResource
+client.category_and_brand #=> CategoryAndBrandResource
 ```
 
 **Actions supported:**
 
-* `client.categories.category(id: 'id')`
-* `client.categories.category_tree(levels: 'number of levels')`
+* `client.category_and_brand.category(id: 'id')`
+* `client.category_and_brand.category_tree(levels: 'number of levels')`
 
 ## Development
 
