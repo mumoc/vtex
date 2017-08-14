@@ -1,0 +1,17 @@
+[
+  {
+    "id": 2000000,
+    "name": "Marca Moda",
+    "isActive": true
+  },
+  {
+    "id": 2000001,
+    "name": "Marca Eletrônicos",
+    "isActive": true
+  },
+  {
+    "id": 2000002,
+    "name": "teste",
+    "isActive": true
+  }
+]
