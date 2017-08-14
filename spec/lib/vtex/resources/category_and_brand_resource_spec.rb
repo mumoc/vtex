@@ -19,5 +19,13 @@ RSpec.describe Vtex::CategoryAndBrandResource do
       expect(tree).to be(tree)
     end
   end
+
+  describe "#brand" do
+    it "returns a collection brand" do
+      stub_do_api('/api/catalog_system/pvt/brand/list', :get).to_return(body: api_fixture('category_and_brand/brand'))
+      brand = resource.brand
+      expect(brand).to eq(brand)
+    end
+  end
 end
 

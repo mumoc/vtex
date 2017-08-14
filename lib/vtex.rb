@@ -7,9 +7,10 @@ module Vtex
   autoload :Client, "vtex/client"
 
   # Models
-  autoload :Base, 'vtex/models/base'
-  autoload :Product, 'vtex/models/product'
-  autoload :Category, 'vtex/models/category'
+  autoload :Base, "vtex/models/base"
+  autoload :Product, "vtex/models/product"
+  autoload :Category, "vtex/models/category"
+  autoload :Brand, "vtex/models/brand"
 
   # Resources
   autoload :ProductResource, "vtex/resources/product_resource"
@@ -18,4 +19,5 @@ module Vtex
   # Mappings
   autoload :ProductMapping, "vtex/mappings/product_mapping"
   autoload :CategoryMapping, "vtex/mappings/category_mapping"
+  autoload :BrandMapping, "vtex/mappings/brand_mapping"
 end
