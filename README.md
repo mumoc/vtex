@@ -106,7 +106,7 @@ client.category_and_brand #=> CategoryAndBrandResource
 
 * `client.category_and_brand.category(id: 'id')`
 * `client.category_and_brand.category_tree(levels: 'number of levels')`
-* `client.category_and_brand.brand(brand: 'name of brand')`
+* `client.category_and_brand.brand`
 
 ## Development
 
