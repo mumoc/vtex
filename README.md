@@ -90,6 +90,7 @@ client.product #=> ProductResource
 **Actions supported:**
 
 * `client.product.product_by_id(id: 'id')`
+* `client.product.product_by_ref_id(ref_id: 'ref_id')`
 
 ## Category and Brand resource
 
