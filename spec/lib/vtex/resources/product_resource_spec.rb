@@ -11,5 +11,13 @@ RSpec.describe Vtex::ProductResource do
       expect(product).to be_kind_of(Vtex::Product)
     end
   end
+
+  describe "#product_by_ref_id" do
+    it "returns a single product" do
+      stub_do_api('/api/catalog_system/pvt/products/productgetbyrefid/1', :get).to_return(body: api_fixture('product/product_by_id'))
+      product = resource.product_by_ref_id(ref_id: 1)
+      expect(product).to be_kind_of(Vtex::Product)
+    end
+  end
 end
 
