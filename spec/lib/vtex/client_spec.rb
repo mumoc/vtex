@@ -29,7 +29,7 @@ RSpec.describe Vtex::Client do
   describe "#method_missing" do
     context "called with an existing method" do
       it do
-        expect{ client.products }.to_not raise_error
+        expect{ client.product }.to_not raise_error
       end
     end
 

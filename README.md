@@ -76,7 +76,7 @@ client.products.by_id(id: 1)
 
 All resources, methods and properties are direct matches from the [VTex API](http://help.vtex.com/en/developer-docs)
 
-## Products resource
+## Product resource
 
 Vtex API: [Catalog System - Product](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#ee16e494-d3b0-36f0-cfed-219aef3f155e)
 
@@ -84,12 +84,12 @@ Vtex API: [Catalog System - Product](https://documenter.getpostman.com/view/845/
 
 ```ruby
 client = Vtex::Client.new({ ... })
-client.products #=> ProductsResource
+client.product #=> ProductResource
 ```
 
 **Actions supported:**
 
-* `client.products.by_id(id: 'id')`
+* `client.product.product_by_id(id: 'id')`
 
 ## Category and Brand resource
 
