@@ -11,6 +11,7 @@ module Vtex
   autoload :Product, "vtex/models/product"
   autoload :Category, "vtex/models/category"
   autoload :Brand, "vtex/models/brand"
+  autoload :ProductVariation, "vtex/models/product_variation"
 
   # Resources
   autoload :ProductResource, "vtex/resources/product_resource"
@@ -20,4 +21,5 @@ module Vtex
   autoload :ProductMapping, "vtex/mappings/product_mapping"
   autoload :CategoryMapping, "vtex/mappings/category_mapping"
   autoload :BrandMapping, "vtex/mappings/brand_mapping"
+  autoload :ProductVariationMapping, "vtex/mappings/product_variation_mapping"
 end
