@@ -24,7 +24,7 @@ RSpec.describe Vtex::ProductResource do
     it "returns a single product with specifications" do
       stub_do_api('/api/catalog_system/pub/products/variations/5', :get).to_return(body: api_fixture('product/product_variations'))
       product = resource.product_variations(product_id: 5)
-      expect(product).to be_kind_of(Vtex::Product)
+      expect(product).to be_kind_of(Vtex::ProductVariation)
     end
   end
 end
