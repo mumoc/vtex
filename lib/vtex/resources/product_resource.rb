@@ -4,6 +4,10 @@ module Vtex
       action :product_by_id, 'GET /api/catalog_system/pvt/products/ProductGet/:id' do
         handler(200) { |response| ProductMapping.extract_single(response.body, :read) }
       end
+
+      action :product_by_ref_id, 'GET /api/catalog_system/pvt/products/productgetbyrefid/:ref_id' do
+        handler(200) { |response| ProductMapping.extract_single(response.body, :read) }
+      end
     end
   end
 end
