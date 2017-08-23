@@ -20,4 +20,5 @@ module Vtex
   autoload :ProductMapping, "vtex/mappings/product_mapping"
   autoload :CategoryMapping, "vtex/mappings/category_mapping"
   autoload :BrandMapping, "vtex/mappings/brand_mapping"
+  autoload :ProductAndSkuIdsMapping, "vtex/mappings/product_and_sku_ids_mapping"
 end
