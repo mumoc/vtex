@@ -19,5 +19,13 @@ RSpec.describe Vtex::ProductResource do
       expect(product).to be_kind_of(Vtex::Product)
     end
   end
+
+  describe "#product_and_sku_ids" do
+    it "returns data ids and range about product and skus" do
+      stub_do_api('/api/catalog_system/pvt/products/GetProductAndSkuIds?categoryId=1&_from=1&_to=10', :get).to_return(body: api_fixture('product/product_and_sku_ids'))
+      data = resource.product_and_sku_ids(category_id: 1, from: 1, to: 10)
+      expect(data).to be_kind_of(Vtex::Product)
+    end
+  end
 end
 
