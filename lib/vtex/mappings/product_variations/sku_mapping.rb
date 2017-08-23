@@ -1,10 +1,10 @@
 module Vtex
-  module ProductVariation
+  module ProductVariations
     class SkuMapping
       include Kartograph::DSL
 
       kartograph do
-        mapping ProductVariation::Sku
+        mapping ProductVariations::Sku
 
         scoped :read do
           property :sku

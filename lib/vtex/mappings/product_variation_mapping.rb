@@ -13,7 +13,7 @@ module Vtex
         property :dimensions, plural: true
         property :dimensionsInputType
         property :dimensionsMap
-        property :skus, plural: true, include: ProductVariation::SkuMapping
+        property :skus, plural: true, include: ProductVariations::SkuMapping
       end
     end
   end

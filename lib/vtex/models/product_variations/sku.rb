@@ -1,5 +1,5 @@
 module Vtex
-  module ProductVariation
+  module ProductVariations
     class Sku < Base
       [:sku, :skuname, :dimensions, :available, :availablequantity, 
       :cacheVersionUsedToCallCheckout, :listPriceFormated, :listPrice, 
