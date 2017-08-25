@@ -109,6 +109,21 @@ client.category_and_brand #=> CategoryAndBrandResource
 * `client.category_and_brand.category_tree(levels: 'number of levels')`
 * `client.category_and_brand.brand`
 
+## Indexer, Notification and AutoComplete
+
+Vtex API: [Catalog System - Indexer, Notification and AutoComplete](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#2b5ce2d8-1b3b-db8a-2fa5-75d71552b388)
+
+**Usage:**
+
+```ruby
+client = Vtex::Client.new({ ... })
+client.indexer_notification_and_autocomplete #=> IndexerNotificationAndAutocompleteResource
+```
+
+**Actions supported:**
+
+* `client.indexer_notification_and_autocomplete.change_notification`
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
