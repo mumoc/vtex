@@ -117,12 +117,12 @@ Vtex API: [Catalog System - Indexer, Notification and AutoComplete](https://docu
 
 ```ruby
 client = Vtex::Client.new({ ... })
-client.indexer_changenotification_and_autocomplete #=> IndexerChangeNotificationAndAutocompleteResource
+client.indexer_notification_and_autocomplete #=> IndexerNotificationAndAutocompleteResource
 ```
 
 **Actions supported:**
 
-* `client.indexer_changenotification_and_autocomplete.change_notification`
+* `client.indexer_notification_and_autocomplete.change_notification`
 
 ## Development
 
