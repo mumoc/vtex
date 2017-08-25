@@ -16,6 +16,7 @@ module Vtex
   # Resources
   autoload :ProductResource, "vtex/resources/product_resource"
   autoload :CategoryAndBrandResource, "vtex/resources/category_and_brand_resource"
+  autoload :IndexerNotificationAndAutocompleteResource, "vtex/resources/indexer_notification_and_autocomplete_resource"
 
   # Mappings
   autoload :ProductMapping, "vtex/mappings/product_mapping"
