@@ -91,6 +91,7 @@ client.product #=> ProductResource
 
 * `client.product.product_by_id(id: 'id')`
 * `client.product.product_by_ref_id(ref_id: 'ref_id')`
+* `client.product.product_variations(product_id: 'product_id')`
 
 ## Category and Brand resource
 
@@ -108,6 +109,21 @@ client.category_and_brand #=> CategoryAndBrandResource
 * `client.category_and_brand.category(id: 'id')`
 * `client.category_and_brand.category_tree(levels: 'number of levels')`
 * `client.category_and_brand.brand`
+
+## Indexer, Notification and AutoComplete
+
+Vtex API: [Catalog System - Indexer, Notification and AutoComplete](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#2b5ce2d8-1b3b-db8a-2fa5-75d71552b388)
+
+**Usage:**
+
+```ruby
+client = Vtex::Client.new({ ... })
+client.indexer_notification_and_autocomplete #=> IndexerNotificationAndAutocompleteResource
+```
+
+**Actions supported:**
+
+* `client.indexer_notification_and_autocomplete.change_notification`
 
 ## Development
 

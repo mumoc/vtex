@@ -1,0 +1,83 @@
+{
+    "productId": 5,
+    "name": "Televisão LED 42''",
+    "salesChannel": "1",
+    "available": true,
+    "displayMode": "especificacao",
+    "dimensions": [
+        "Voltagem"
+    ],
+    "dimensionsInputType": {
+        "Voltagem": "Combo"
+    },
+    "dimensionsMap": {
+        "Voltagem": [
+            "110v",
+            "220v"
+        ]
+    },
+    "skus": [
+        {
+            "sku": 16,
+            "skuname": "110v",
+            "dimensions": {
+                "Voltagem": "110v"
+            },
+            "available": true,
+            "availablequantity": 99999,
+            "cacheVersionUsedToCallCheckout": "f516290b5826132b63a5df2dd41efb66_",
+            "listPriceFormated": "$15.00",
+            "listPrice": 1500,
+            "taxFormated": "$0.00",
+            "taxAsInt": 0,
+            "bestPriceFormated": "$9.00",
+            "bestPrice": 900,
+            "installments": 1,
+            "installmentsValue": 900,
+            "installmentsInsterestRate": 0,
+            "image": "http://magmalabs.vteximg.com.br/arquivos/ids/155394-292-292/41TiW2LQ9fL._SL500_AC_SS350_.jpg",
+            "sellerId": "1",
+            "seller": "Magmalabs",
+            "measures": {
+                "cubicweight": 0.1667,
+                "height": 10,
+                "length": 10,
+                "weight": 10,
+                "width": 10
+            },
+            "unitMultiplier": 1,
+            "rewardValue": 0
+        },
+        {
+            "sku": 17,
+            "skuname": "220v",
+            "dimensions": {
+                "Voltagem": "220v"
+            },
+            "available": true,
+            "availablequantity": 99999,
+            "cacheVersionUsedToCallCheckout": "f516290b5826132b63a5df2dd41efb66_",
+            "listPriceFormated": "$50.00",
+            "listPrice": 5000,
+            "taxFormated": "$0.00",
+            "taxAsInt": 0,
+            "bestPriceFormated": "$48.00",
+            "bestPrice": 4800,
+            "installments": 1,
+            "installmentsValue": 4800,
+            "installmentsInsterestRate": 0,
+            "image": "http://magmalabs.vteximg.com.br/arquivos/ids/155399-292-292/B7_A_Desktop_01.jpg",
+            "sellerId": "1",
+            "seller": "Magmalabs",
+            "measures": {
+                "cubicweight": 0.1667,
+                "height": 10,
+                "length": 10,
+                "weight": 10,
+                "width": 10
+            },
+            "unitMultiplier": 1,
+            "rewardValue": 0
+        }
+    ]
+}
