@@ -30,9 +30,9 @@ RSpec.describe Vtex::ProductResource do
 
   describe "#review_rate_product" do
     it "returns rate product" do
-      stub_do_api('/api/addon/pvt/review/GetProductRate/2001158', :get).to_return(body: 0)
-      rate = resource.review_rate_product()
-      expect(rate).to be_a(Float)
+      stub_do_api('/api/addon/pvt/review/GetProductRate/2001158', :get).to_return(body: "0", status: 200)
+      rate = resource.review_rate_product().to_i
+      expect(rate).to be_a(Integer)
     end
   end
 end
