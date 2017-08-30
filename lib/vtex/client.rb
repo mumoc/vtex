@@ -23,7 +23,7 @@ module Vtex
       {
         product: ProductResource,
         category_and_brand: CategoryAndBrandResource
-        indexer_notification_and_autocomplete: IndexerChangeNotificationAndAutoCompleteResource
+        indexer_notification_and_autocomplete: IndexerNotificationAndAutoCompleteResource
       }
     end
 
