@@ -22,7 +22,8 @@ module Vtex
     def self.resources
       {
         product: ProductResource,
-        category_and_brand: CategoryAndBrandResource
+        category_and_brand: CategoryAndBrandResource,
+        indexer_notification_and_autocomplete: IndexerNotificationAndAutocompleteResource
       }
     end
 

@@ -124,6 +124,7 @@ client.indexer_notification_and_autocomplete #=> IndexerNotificationAndAutocompl
 **Actions supported:**
 
 * `client.indexer_notification_and_autocomplete.change_notification`
+* `client.indexer_notification_and_autocomplete.indexed_info`
 
 ## Development
 
