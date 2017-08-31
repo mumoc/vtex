@@ -9,7 +9,7 @@ module Vtex
         handler(200) { |response| response.body }
       end
 
-      action :indexed_info, 'GET /buscaautocomplete/?productNameContains=:product_name' do
+      action :auto_complete, 'GET /buscaautocomplete/?productNameContains=:product_name' do
         handler(200) { |response| response.body }
       end
     end
