@@ -126,6 +126,21 @@ client.indexer_notification_and_autocomplete #=> IndexerNotificationAndAutocompl
 * `client.indexer_notification_and_autocomplete.change_notification`
 * `client.indexer_notification_and_autocomplete.indexed_info`
 
+## Sales Channel resource
+
+Vtex API: [Catalog System - Sales Channel](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#5b048083-98be-443f-7ad9-8982c7ed0fef)
+
+**Usage:**
+
+```ruby
+client = Vtex::Client.new({ ... })
+client.sales_channel #=> SalesChannelResource
+```
+
+**Actions supported:**
+
+* `client.sales_channel.sales_channel_list`
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
