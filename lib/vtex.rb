@@ -12,6 +12,7 @@ module Vtex
   autoload :Category, "vtex/models/category"
   autoload :Brand, "vtex/models/brand"
   autoload :ProductVariation, "vtex/models/product_variation"
+  autoload :SellerList, "vtex/models/seller_list"
 
   # Resources
   autoload :ProductResource, "vtex/resources/product_resource"
