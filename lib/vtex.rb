@@ -25,6 +25,7 @@ module Vtex
   autoload :CategoryMapping, "vtex/mappings/category_mapping"
   autoload :BrandMapping, "vtex/mappings/brand_mapping"
   autoload :ProductVariationMapping, "vtex/mappings/product_variation_mapping"
+  autoload :SellerListMapping, "vtex/mappings/seller_list_mapping"
 
   module ProductVariations
     autoload :Sku, "vtex/models/product_variations/sku"
