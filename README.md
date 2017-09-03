@@ -126,6 +126,21 @@ client.indexer_notification_and_autocomplete #=> IndexerNotificationAndAutocompl
 * `client.indexer_notification_and_autocomplete.change_notification`
 * `client.indexer_notification_and_autocomplete.indexed_info`
 
+## Seller
+
+Vtex API: [Catalog System - Seller](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#2b5ce2d8-1b3b-db8a-2fa5-75d71552b388)
+
+**Usage:**
+
+```ruby
+client = Vtex::Client.new({ ... })
+client.seller #=> SellerResource
+```
+
+**Actions supported:**
+
+* `client.seller.seller_list`
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
