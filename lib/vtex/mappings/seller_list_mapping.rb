@@ -11,7 +11,7 @@ module Vtex
         property :email
         property :description
         property :exchangeReturnPolicy
-        property :deliverPolicy
+        property :deliveryPolicy
         property :useHybridPaymentOptions
         property :userName
         property :password
@@ -20,9 +20,9 @@ module Vtex
         property :cscIdentification
         property :archiveId
         property :urlLogo
-        property :productComissionPercentage
-        property :freightComissionPercentage
-        property :categoryCommisionPercentage
+        property :productCommissionPercentage
+        property :freightCommissionPercentage
+        property :categoryCommissionPercentage
         property :fulfillmentEndpoint
         property :catalogSystemEndpoint
         property :isActive

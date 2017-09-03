@@ -3,9 +3,9 @@ module Vtex
     [:sellerId, :name, :email, :description, :exchangeReturnPolicy,
      :deliveryPolicy, :useHybridPaymentOptions, :userName, :password,
      :securityPrivacyPolicy, :cnpj, :cscIdentification, :archiveId, :urlLogo,
-     :productComissionPercentage, :freightComissionPercentage,
-     :categoryComissionPercentage, :fulfillmentEndpoint,
-     :categorySystemEndpoint, :isActive, :merchantName,
+     :productCommissionPercentage, :freightCommissionPercentage,
+     :categoryCommissionPercentage, :fulfillmentEndpoint,
+     :catalogSystemEndpoint, :isActive, :merchantName,
      :fulfillmentSellerId, :sellerType].each do |key|
       attribute(key)
     end
