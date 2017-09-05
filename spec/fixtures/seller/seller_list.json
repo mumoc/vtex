@@ -1,0 +1,27 @@
+[
+    {
+        "SellerId": "1",
+        "Name": "Magmalabs",
+        "Email": "",
+        "Description": "",
+        "ExchangeReturnPolicy": "",
+        "DeliveryPolicy": "",
+        "UseHybridPaymentOptions": null,
+        "UserName": null,
+        "Password": null,
+        "SecutityPrivacyPolicy": "",
+        "CNPJ": "1",
+        "CSCIdentification": "",
+        "ArchiveId": 0,
+        "UrlLogo": null,
+        "ProductCommissionPercentage": 0,
+        "FreightCommissionPercentage": 0,
+        "CategoryCommissionPercentage": "",
+        "FulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=magmalabs",
+        "CatalogSystemEndpoint": null,
+        "IsActive": true,
+        "MerchantName": null,
+        "FulfillmentSellerId": null,
+        "SellerType": 0
+    }
+]

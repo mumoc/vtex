@@ -142,6 +142,21 @@ client.sales_channel #=> SalesChannelResource
 
 * `client.sales_channel.sales_channel_list`
 
+## Seller
+
+Vtex API: [Catalog System - Seller](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#69dc09b6-6529-bb12-bbbe-85ea9dcf83f9)
+
+**Usage:**
+
+```ruby
+client = Vtex::Client.new({ ... })
+client.seller #=> SellerResource
+```
+
+**Actions supported:**
+
+* `client.seller.seller_list`
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
