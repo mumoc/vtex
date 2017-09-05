@@ -1,9 +1,9 @@
 module Vtex
-  class SellerListMapping
+  class SellerMapping
     include Kartograph::DSL
 
     kartograph do
-      mapping SellerList
+      mapping Seller
 
       scoped :read do
         property :sellerId

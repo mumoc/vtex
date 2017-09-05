@@ -1,5 +1,5 @@
 module Vtex
-  class SellerList < Base
+  class Seller < Base
     [:sellerId, :name, :email, :description, :exchangeReturnPolicy,
      :deliveryPolicy, :useHybridPaymentOptions, :userName, :password,
      :securityPrivacyPolicy, :cnpj, :cscIdentification, :archiveId, :urlLogo,

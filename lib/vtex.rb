@@ -12,7 +12,7 @@ module Vtex
   autoload :Category, "vtex/models/category"
   autoload :Brand, "vtex/models/brand"
   autoload :ProductVariation, "vtex/models/product_variation"
-  autoload :SellerList, "vtex/models/seller_list"
+  autoload :Seller, "vtex/models/seller"
 
   # Resources
   autoload :ProductResource, "vtex/resources/product_resource"
@@ -25,7 +25,7 @@ module Vtex
   autoload :CategoryMapping, "vtex/mappings/category_mapping"
   autoload :BrandMapping, "vtex/mappings/brand_mapping"
   autoload :ProductVariationMapping, "vtex/mappings/product_variation_mapping"
-  autoload :SellerListMapping, "vtex/mappings/seller_list_mapping"
+  autoload :SellerMapping, "vtex/mappings/seller_mapping"
 
   module ProductVariations
     autoload :Sku, "vtex/models/product_variations/sku"
