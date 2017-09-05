@@ -92,6 +92,7 @@ client.product #=> ProductResource
 * `client.product.product_by_id(id: 'id')`
 * `client.product.product_by_ref_id(ref_id: 'ref_id')`
 * `client.product.product_variations(product_id: 'product_id')`
+* `client.product.review_rate_product`
 
 ## Category and Brand resource
 
