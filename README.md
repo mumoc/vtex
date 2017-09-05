@@ -128,7 +128,7 @@ client.indexer_notification_and_autocomplete #=> IndexerNotificationAndAutocompl
 
 ## Seller
 
-Vtex API: [Catalog System - Seller](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#2b5ce2d8-1b3b-db8a-2fa5-75d71552b388)
+Vtex API: [Catalog System - Seller](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#69dc09b6-6529-bb12-bbbe-85ea9dcf83f9)
 
 **Usage:**
 
