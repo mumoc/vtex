@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe Vtex::Sku do
+RSpec.describe Vtex::SkuResource do
   subject(:resource) { described_class.new(connection: connection) }
   include_context 'resources'
 
