@@ -159,6 +159,21 @@ client.seller #=> SellerResource
 * `client.seller.seller_list`
 * `client.seller.get_seller(seller_id: 'seller_id')`
 
+## Sku
+
+Vtex API: [Catalog System - Sku](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#a5a95729-b9eb-40fc-935f-c0d12760ed39)
+
+**Usage:**
+
+```ruby
+client = Vtex::Client.new({ ... })
+client.sku #=> SkuResource
+```
+
+**Actions supported:**
+
+* `client.sku.sku(sku_id: 'sku_id')`
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
