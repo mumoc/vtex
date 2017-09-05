@@ -26,16 +26,16 @@ module Vtex
         property :RealDimension
         property :ManufacturerCode
         property :IsKit
-        property :KitItems
-        property :Services
-        property :Categories
-        property :Attachments
-        property :Collections
-        property :SkuSellers
-        property :SalesChannels
-        property :Images
-        property :SkuSpecifications
-        property :ProductSpecifications
+        property :KitItems, plural: true
+        property :Services, plural: true
+        property :Categories, plural: true
+        property :Attachments, plural: true
+        property :Collections, plural: true
+        property :SkuSellers, plural: true
+        property :SalesChannels, plural: true
+        property :Images, plural: true
+        property :SkuSpecifications, plural: true
+        property :ProductSpecifications, plural: true
         property :ProductClustersIds
         property :ProductCategoryIds
         property :ProductGlobalCategoryId
@@ -43,7 +43,7 @@ module Vtex
         property :CommercialConditionId
         property :RewardValue
         property :AlternateIds
-        property :AlternateIdValues
+        property :AlternateIdValues, plural: true
         property :EstimatedDateArrival
         property :MeasurementUnit
         property :UnitMultiplier
