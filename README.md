@@ -156,7 +156,7 @@ client.seller #=> SellerResource
 **Actions supported:**
 
 * `client.seller.seller_list`
-* `client.seller.get_seller(seller_id: 'id')`
+* `client.seller.get_seller(seller_id: 'seller_id')`
 
 ## Development
 
