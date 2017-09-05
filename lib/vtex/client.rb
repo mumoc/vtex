@@ -23,7 +23,8 @@ module Vtex
       {
         product: ProductResource,
         category_and_brand: CategoryAndBrandResource,
-        indexer_notification_and_autocomplete: IndexerNotificationAndAutocompleteResource
+        indexer_notification_and_autocomplete: IndexerNotificationAndAutocompleteResource,
+        sales_channel: SalesChannelResource
       }
     end
 
@@ -60,4 +61,3 @@ module Vtex
     end
   end
 end
-
