@@ -8,6 +8,10 @@ module Vtex
       action :indexed_info, 'GET /api/catalog_system/pvt/products/GetIndexedInfo/2000005' do
         handler(200) { |response| response.body }
       end
+
+      action :auto_complete, 'GET /buscaautocomplete/?productNameContains=:product_name' do
+        handler(200) { |response| response.body }
+      end
     end
   end
 end

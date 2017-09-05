@@ -126,7 +126,22 @@ client.indexer_notification_and_autocomplete #=> IndexerNotificationAndAutocompl
 
 * `client.indexer_notification_and_autocomplete.change_notification`
 * `client.indexer_notification_and_autocomplete.indexed_info`
-
+## Categories resource
+ 
+ Vtex API: [Catalog System - Category](https://documenter.getpostman.com/view/845/catalogsystem-102/Hs44#add37358-cfa2-a357-3281-265e3e49c3ec)
+ 
+ **Usage:**
+ 
+ ```ruby
+ client = Vtex::Client.new({ ... })
+ client.categories #=> CategoriesResource
+ ```
+ 
+ **Actions supported:**
+ 
+  `client.categories.by_id(id: 'id')`
+  `client.brands.all`
+ 
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

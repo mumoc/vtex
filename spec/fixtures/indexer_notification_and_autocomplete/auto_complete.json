@@ -1,0 +1,25 @@
+{
+    "itemsReturned": [
+        {
+            "items": [
+                {
+                    "itemId": "16",
+                    "name": "110v",
+                    "nameComplete": "Televisão LED 42'' 110v",
+                    "imageUrl": "https://magmalabs.vteximg.com.br/arquivos/ids/155394-25-25/41TiW2LQ9fL._SL500_AC_SS350_.jpg"
+                },
+                {
+                    "itemId": "17",
+                    "name": "220v",
+                    "nameComplete": "Televisão LED 42'' 220v",
+                    "imageUrl": "https://magmalabs.vteximg.com.br/arquivos/ids/155399-25-25/B7_A_Desktop_01.jpg"
+                }
+            ],
+            "thumb": "<img src=\"https://magmalabs.vteximg.com.br/arquivos/ids/155394-25-25/41TiW2LQ9fL._SL500_AC_SS350_.jpg\" width=\"25\" height=\"25\" alt=\"tv\" id=\"\" />",
+            "thumbUrl": "https://magmalabs.vteximg.com.br/arquivos/ids/155394-25-25/41TiW2LQ9fL._SL500_AC_SS350_.jpg",
+            "name": "televisão led 42''",
+            "href": "http://magmalabs.vtexcommercestable.com.br/televisao-led/p",
+            "criteria": null
+        }
+    ]
+}
