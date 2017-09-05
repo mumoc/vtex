@@ -6,29 +6,29 @@ module Vtex
       mapping Seller
 
       scoped :read do
-        property :sellerId
-        property :name
-        property :email
-        property :description
-        property :exchangeReturnPolicy
-        property :deliveryPolicy
-        property :useHybridPaymentOptions
-        property :userName
-        property :password
-        property :securityPrivacyPolicy
-        property :cnpj
-        property :cscIdentification
-        property :archiveId
-        property :urlLogo
-        property :productCommissionPercentage
-        property :freightCommissionPercentage
-        property :categoryCommissionPercentage
-        property :fulfillmentEndpoint
-        property :catalogSystemEndpoint
-        property :isActive
-        property :merchantName
-        property :fulfillmentSellerId
-        property :sellerType
+        property :SellerId
+        property :Name
+        property :Email
+        property :Description
+        property :ExchangeReturnPolicy
+        property :DeliveryPolicy
+        property :UseHybridPaymentOptions
+        property :UserName
+        property :Password
+        property :SecurityPrivacyPolicy
+        property :CNPJ
+        property :CSCIdentification
+        property :ArchiveId
+        property :UrlLogo
+        property :ProductCommissionPercentage
+        property :FreightCommissionPercentage
+        property :CategoryCommissionPercentage
+        property :FulfillmentEndpoint
+        property :CatalogSystemEndpoint
+        property :IsActive
+        property :MerchantName
+        property :FulfillmentSellerId
+        property :SellerType
       end
     end
   end
