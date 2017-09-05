@@ -1,0 +1,118 @@
+{
+    "Id": 1,
+    "ProductId": 1,
+    "NameComplete": "Guarda-Roupa Casal Lisboa 10 Portas 3 Gavetas - Araplac",
+    "ProductName": "Guarda-Roupa Casal Lisboa 10 Portas 3 Gavetas - Araplac",
+    "ProductDescription": "Guarda-Roupa Casal Lisboa da Araplac. Um quarto bem aconchegante precisará de um móvel diferenciado como esse Guarda-Roupa Lisboa, desenvolvido para oferece comodidade para você e sua família. Ele vem com dez portas de abrir, puxadores em PVC, corrediças metálicas e bastões em madeira, além de gavetas externas. Seu bonito visual e cores inovadoras, destacam a beleza do móvel e o deixam mais atraente. O produto é todo fabricado com chapas 100% MDP de 12 e 15 mm, material ecologicamente correto que confere a boa resistência e durabilidade à peça e tem um bonito acabamento com revestimento UV alto brilho, muito resistente que dá maior destaque à cor e conservam a beleza do móvel por mais tempo. Para garantir a qualidade do produto dentro da embalagem, as caixas de cada produto são revestidas por um plástico termoencolhível e as peças são separadas por isomanta, tudo para evitar o atrito entre elas. Surpreenda-se com o design moderno, qualidade e durabilidade deste produto.",
+    "TaxCode": "",
+    "SkuName": "Guarda-Roupa Casal Lisboa 10 Portas 3 Gavetas - Araplac",
+    "IsActive": false,
+    "IsTransported": true,
+    "IsInventoried": true,
+    "IsGiftCardRecharge": false,
+    "ImageUrl": "http://magmalabs.vteximg.com.br/arquivos/ids/155398-55-55/guardarropa-casero.jpg",
+    "DetailUrl": "/guarda-roupa-casal-lisboa-10-portas-3-gavetas---araplac/p",
+    "CSCIdentification": null,
+    "BrandId": "2000000",
+    "BrandName": "Marca Moda",
+    "Dimension": {
+        "cubicweight": 0.25,
+        "height": 10,
+        "length": 15,
+        "weight": 99999,
+        "width": 10
+    },
+    "RealDimension": {
+        "realCubicWeight": 0.1666666666666666666666666667,
+        "realHeight": 10,
+        "realLength": 10,
+        "realWeight": 50,
+        "realWidth": 10
+    },
+    "ManufacturerCode": "",
+    "IsKit": true,
+    "KitItems": [],
+    "Services": [
+        {
+            "Id": 1,
+            "ServiceTypeId": 1,
+            "Name": "Embalagem Presente",
+            "IsFile": false,
+            "IsGiftCard": true,
+            "IsRequired": false,
+            "Options": [
+                {
+                    "Id": 1,
+                    "Name": "Embalagem Presente",
+                    "Description": "Embalagem para presente",
+                    "PriceName": "Embalagem Presente",
+                    "ListPrice": 3,
+                    "Price": 5
+                }
+            ],
+            "Attachments": []
+        }
+    ],
+    "Categories": [],
+    "Attachments": [
+        {
+            "Id": 1,
+            "Name": "Nome",
+            "Keys": [],
+            "Fields": [],
+            "IsActive": true,
+            "IsRequired": false
+        },
+        {
+            "Id": 2,
+            "Name": "Sobrenome",
+            "Keys": [],
+            "Fields": [],
+            "IsActive": true,
+            "IsRequired": false
+        }
+    ],
+    "Collections": [],
+    "SkuSellers": [
+        {
+            "SellerId": "1",
+            "StockKeepingUnitId": 1,
+            "SellerStockKeepingUnitId": "1",
+            "IsActive": true,
+            "FreightCommissionPercentage": 0,
+            "ProductCommissionPercentage": 0
+        }
+    ],
+    "SalesChannels": [
+        1
+    ],
+    "Images": [
+        {
+            "ImageUrl": "http://magmalabs.vteximg.com.br/arquivos/ids/155398/guardarropa-casero.jpg",
+            "ImageName": "guardaroupacasal",
+            "FileId": 155398
+        }
+    ],
+    "SkuSpecifications": [],
+    "ProductSpecifications": [],
+    "ProductClustersIds": "",
+    "ProductCategoryIds": "/9/",
+    "ProductGlobalCategoryId": 4582,
+    "ProductCategories": {
+        "9": "Móveis"
+    },
+    "CommercialConditionId": 1,
+    "RewardValue": 0,
+    "AlternateIds": {
+        "Ean": "SKUUN14"
+    },
+    "AlternateIdValues": [
+        "SKUUN",
+        "SKUUN14"
+    ],
+    "EstimatedDateArrival": null,
+    "MeasurementUnit": "un",
+    "UnitMultiplier": 1,
+    "InformationSource": "Database",
+    "ModalType": null
+}
