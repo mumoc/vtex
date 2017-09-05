@@ -141,6 +141,7 @@ client.sales_channel #=> SalesChannelResource
 **Actions supported:**
 
 * `client.sales_channel.sales_channel_list`
+* `client.sales_channel.sales_channel_by_id(sales_channel_id: 'sales_channel_id')`
 
 ## Seller
 
