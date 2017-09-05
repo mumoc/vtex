@@ -12,12 +12,15 @@ module Vtex
   autoload :Category, "vtex/models/category"
   autoload :Brand, "vtex/models/brand"
   autoload :ProductVariation, "vtex/models/product_variation"
+  autoload :SaleChannel, "vtex/models/sale_channel"
   autoload :Seller, "vtex/models/seller"
+
 
   # Resources
   autoload :ProductResource, "vtex/resources/product_resource"
   autoload :CategoryAndBrandResource, "vtex/resources/category_and_brand_resource"
   autoload :IndexerNotificationAndAutocompleteResource, "vtex/resources/indexer_notification_and_autocomplete_resource"
+  autoload :SalesChannelResource, "vtex/resources/sales_channel_resource"
   autoload :SellerResource, "vtex/resources/seller_resource"
 
   # Mappings
@@ -25,6 +28,7 @@ module Vtex
   autoload :CategoryMapping, "vtex/mappings/category_mapping"
   autoload :BrandMapping, "vtex/mappings/brand_mapping"
   autoload :ProductVariationMapping, "vtex/mappings/product_variation_mapping"
+  autoload :SaleChannelMapping, "vtex/mappings/sale_channel_mapping"
   autoload :SellerMapping, "vtex/mappings/seller_mapping"
 
   module ProductVariations
