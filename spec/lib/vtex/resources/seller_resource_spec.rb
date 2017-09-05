@@ -11,4 +11,12 @@ RSpec.describe Vtex::SellerResource do
       expect(list).to match_array(Vtex::Seller)
     end
   end
+
+  describe "#get_seller" do
+    it "returns a seller object by id" do
+      stub_do_api('/api/catalog_system/pvt/seller/1', :get).to_return(body: api_fixture('seller/get_seller'))
+      list = resource.get_seller(seller_id: 1)
+      expect(list).to be_kind_of(Vtex::Seller)
+    end
+  end
 end
