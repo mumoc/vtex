@@ -1,0 +1,23 @@
+[
+    {
+        "Name": "Polegadas",
+        "CategoryId": 8,
+        "FieldId": 16,
+        "IsActive": true,
+        "IsStockKeepingUnit": false
+    },
+    {
+        "Name": "Para que faixa etária",
+        "CategoryId": 8,
+        "FieldId": 17,
+        "IsActive": true,
+        "IsStockKeepingUnit": false
+    },
+    {
+        "Name": "Voltagem",
+        "CategoryId": 8,
+        "FieldId": 18,
+        "IsActive": true,
+        "IsStockKeepingUnit": true
+    }
+]

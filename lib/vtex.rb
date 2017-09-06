@@ -15,6 +15,7 @@ module Vtex
   autoload :SaleChannel, "vtex/models/sale_channel"
   autoload :Seller, "vtex/models/seller"
   autoload :Sku, "vtex/models/sku"
+  autoload :Specification, "vtex/models/specification"
 
 
   # Resources
@@ -24,6 +25,7 @@ module Vtex
   autoload :SalesChannelResource, "vtex/resources/sales_channel_resource"
   autoload :SellerResource, "vtex/resources/seller_resource"
   autoload :SkuResource, "vtex/resources/sku_resource"
+  autoload :SpecificationResource,"vtex/resources/specification_resource"
 
   # Mappings
   autoload :ProductMapping, "vtex/mappings/product_mapping"
@@ -33,6 +35,7 @@ module Vtex
   autoload :SaleChannelMapping, "vtex/mappings/sale_channel_mapping"
   autoload :SellerMapping, "vtex/mappings/seller_mapping"
   autoload :SkuMapping, "vtex/mappings/sku_mapping"
+  autoload :SpecificationMapping, "vtex/mappings/specification_mapping"
 
   module ProductVariations
     autoload :Sku, "vtex/models/product_variations/sku"
