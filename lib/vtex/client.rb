@@ -26,7 +26,8 @@ module Vtex
         indexer_notification_and_autocomplete: IndexerNotificationAndAutocompleteResource,
         sales_channel: SalesChannelResource,
         seller: SellerResource,
-        sku: SkuResource
+        sku: SkuResource,
+        specification: SpecificationResource
       }
     end
 
