@@ -35,6 +35,7 @@ module Vtex
   autoload :SaleChannelMapping, "vtex/mappings/sale_channel_mapping"
   autoload :SellerMapping, "vtex/mappings/seller_mapping"
   autoload :SkuMapping, "vtex/mappings/sku_mapping"
+  autoload :SpecificationMapping, "vtex/mappings/specification_mapping"
 
   module ProductVariations
     autoload :Sku, "vtex/models/product_variations/sku"
