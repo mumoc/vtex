@@ -24,7 +24,7 @@ RSpec.describe Vtex::CategoryAndBrandResource do
     it "returns a collection brand" do
       stub_do_api('/api/catalog_system/pvt/brand/list', :get).to_return(body: api_fixture('category_and_brand/brand'))
       brand = resource.brand
-      expect(brand).to eq(brand)
+      expect(brand.first).to be_kind_of(Vtex::Brand)
     end
   end
 end

@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "Tamanho",
+        "CategoryId": 5,
+        "FieldId": 13,
+        "IsActive": true,
+        "IsStockKeepingUnit": true
+    },
+    {
+        "Name": "Cor",
+        "CategoryId": 5,
+        "FieldId": 14,
+        "IsActive": true,
+        "IsStockKeepingUnit": true
+    }
+]
