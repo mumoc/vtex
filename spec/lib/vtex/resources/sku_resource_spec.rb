@@ -19,4 +19,12 @@ RSpec.describe Vtex::SkuResource do
       expect(sku).to be_a(String)
     end
   end
+
+  describe "#sku_by_ean" do
+    it "returns a sku object" do
+      stub_do_api('/api/catalog_system/pvt/sku/stockkeepingunitbyean/1234567890', :get).to_return(body: api_fixture('sku/sku_by_ean'))
+      sku = resource.sku_by_ean(ean: 1234567890)
+      expect(sku).to be_kind_of(Vtex::Sku)
+    end
+  end
 end
