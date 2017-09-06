@@ -11,4 +11,12 @@ RSpec.describe Vtex::SkuResource do
       expect(sku).to be_kind_of(Vtex::Sku)
     end
   end
+
+  describe "#sku_id_by_ref_id" do
+    it "returns a sku id" do
+      stub_do_api('/api/catalog_system/pvt/sku/stockkeepingunitidbyrefid/playera', :get).to_return(body: "2001773", status: 200)
+      sku = resource.sku_id_by_ref_id(ref_id: 'playera')
+      expect(sku).to be_a(String)
+    end
+  end
 end
