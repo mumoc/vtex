@@ -1,10 +1,10 @@
 module Vtex
-  module Sku
+  module SkuList
     class SkuMapping
       include Kartograph::DSL
 
       kartograph do
-        mapping Sku::Sku
+        mapping SkuList::Sku
 
         scoped :read do
           property :IsPersisted

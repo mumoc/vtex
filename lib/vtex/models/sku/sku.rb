@@ -1,5 +1,5 @@
 module Vtex
-  module Sku
+  module SkuList
     class Sku < Base
       [:IsPersisted, :IsRemoved, :Id, :ProductId, :IsActive, :Name, :Height,
        :RealHeight, :Width, :RealWidth, :Length, :RealLength, :WeightKg,

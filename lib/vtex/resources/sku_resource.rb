@@ -18,7 +18,7 @@ module Vtex
       end
 
       action :sku_list_by_product_id, 'GET /api/catalog_system/pvt/sku/stockkeepingunitByProductId/:product_id' do
-        handler(200) { |response| Sku::SkuMapping.extract_collection(response.body, :read) }
+        handler(200) { |response| SkuList::SkuMapping.extract_collection(response.body, :read) }
       end
     end
   end

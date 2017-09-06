@@ -42,7 +42,7 @@ module Vtex
     autoload :SkuMapping, "vtex/mappings/product_variations/sku_mapping"
   end
 
-  module Sku
+  module SkuList
     autoload :Sku, "vtex/models/sku/sku"
     autoload :SkuMapping, "vtex/mappings/sku/sku_mapping"
   end
