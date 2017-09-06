@@ -174,6 +174,7 @@ client.sku #=> SkuResource
 
 * `client.sku.sku(sku_id: 'sku_id')`
 * `client.sku.sku_id_by_ref_id(ref_id: 'ref_id')`
+* `client.sku.sku_by_ean(ean: 'ean')`
 
 ## Specification
 
