@@ -25,6 +25,7 @@ module Vtex
   autoload :SalesChannelResource, "vtex/resources/sales_channel_resource"
   autoload :SellerResource, "vtex/resources/seller_resource"
   autoload :SkuResource, "vtex/resources/sku_resource"
+  autoload :SpecificationResource,"vtex/resource/specification_resource"
 
   # Mappings
   autoload :ProductMapping, "vtex/mappings/product_mapping"
