@@ -190,6 +190,7 @@ client.specification #=> SpecificationResource
 **Actions supported:**
 
 * `client.specification.specification_by_category_id(category_id: 'category_id')`
+* `client.specification.specification_tree_by_category_id(category_id: 'category_id')`
 
 ## Development
 
