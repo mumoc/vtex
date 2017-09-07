@@ -37,7 +37,7 @@ module Vtex
   autoload :SellerMapping, "vtex/mappings/seller_mapping"
   autoload :SkuMapping, "vtex/mappings/sku_mapping"
   autoload :SpecificationMapping, "vtex/mappings/specification_mapping"
-  autoload :SpecificationValueByFieldIdMapping, "vtex/mappings/specification_value_by_field_id"
+  autoload :SpecificationValueByFieldIdMapping, "vtex/mappings/specification_value_by_field_id_mapping"
 
   module ProductVariations
     autoload :Sku, "vtex/models/product_variations/sku"
