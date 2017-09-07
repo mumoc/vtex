@@ -176,6 +176,7 @@ client.sku #=> SkuResource
 * `client.sku.sku_id_by_ref_id(ref_id: 'ref_id')`
 * `client.sku.sku_by_ean(ean: 'ean')`
 * `client.sku.sku_by_alternate_id(ean: 'ean')`
+* `client.sku.sku_list_by_product_id(product_id: 'product_id')`
 
 ## Specification
 
