@@ -27,7 +27,8 @@ module Vtex
         sales_channel: SalesChannelResource,
         seller: SellerResource,
         sku: SkuResource,
-        specification: SpecificationResource
+        specification: SpecificationResource,
+        specification_value_by_field_id: SpecificationValueByFieldIdResource
       }
     end
 

@@ -27,6 +27,7 @@ module Vtex
   autoload :SellerResource, "vtex/resources/seller_resource"
   autoload :SkuResource, "vtex/resources/sku_resource"
   autoload :SpecificationResource,"vtex/resources/specification_resource"
+  autoload :SpecificationValueByFieldId, "vtex/resources/specification_value_by_field_id"
 
   # Mappings
   autoload :ProductMapping, "vtex/mappings/product_mapping"
