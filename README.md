@@ -193,6 +193,7 @@ client.specification #=> SpecificationResource
 
 * `client.specification.specification_by_category_id(category_id: 'category_id')`
 * `client.specification.specification_tree_by_category_id(category_id: 'category_id')`
+* `client.specification.specification_value_by_field_id(field_id: 'field_id')`
 
 ## Development
 
