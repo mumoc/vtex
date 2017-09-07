@@ -35,4 +35,12 @@ RSpec.describe Vtex::SkuResource do
       expect(sku).to be_kind_of(Vtex::Sku)
     end
   end
+
+  describe "#sku_list_by_product_id" do
+    it "returns a list of skus objects" do
+      stub_do_api('/api/catalog_system/pvt/sku/stockkeepingunitByProductId/1', :get).to_return(body: api_fixture('sku/sku_list_by_product_id'))
+      skus = resource.sku_list_by_product_id(product_id: 1)
+      expect(skus).to match_array(Vtex::SkuList::Sku)
+    end
+  end
 end
