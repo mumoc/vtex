@@ -1,0 +1,32 @@
+[
+    {
+        "FieldValueId": 36,
+        "Value": "PP",
+        "IsActive": true,
+        "Position": 1
+    },
+    {
+        "FieldValueId": 37,
+        "Value": "P",
+        "IsActive": true,
+        "Position": 2
+    },
+    {
+        "FieldValueId": 38,
+        "Value": "M",
+        "IsActive": true,
+        "Position": 3
+    },
+    {
+        "FieldValueId": 39,
+        "Value": "G",
+        "IsActive": true,
+        "Position": 4
+    },
+    {
+        "FieldValueId": 40,
+        "Value": "GG",
+        "IsActive": true,
+        "Position": 5
+    }
+]

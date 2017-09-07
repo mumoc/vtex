@@ -27,7 +27,6 @@ module Vtex
   autoload :SellerResource, "vtex/resources/seller_resource"
   autoload :SkuResource, "vtex/resources/sku_resource"
   autoload :SpecificationResource,"vtex/resources/specification_resource"
-  autoload :SpecificationValueByFieldId, "vtex/resources/specification_value_by_field_id"
 
   # Mappings
   autoload :ProductMapping, "vtex/mappings/product_mapping"
@@ -38,7 +37,7 @@ module Vtex
   autoload :SellerMapping, "vtex/mappings/seller_mapping"
   autoload :SkuMapping, "vtex/mappings/sku_mapping"
   autoload :SpecificationMapping, "vtex/mappings/specification_mapping"
-  autoload :SpecificationValueByFieldId, "vtex/resources/specification_value_by_field_id"
+  autoload :SpecificationValueByFieldIdMapping, "vtex/mappings/specification_value_by_field_id"
 
   module ProductVariations
     autoload :Sku, "vtex/models/product_variations/sku"
