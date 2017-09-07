@@ -16,6 +16,7 @@ module Vtex
   autoload :Seller, "vtex/models/seller"
   autoload :Sku, "vtex/models/sku"
   autoload :Specification, "vtex/models/specification"
+  autoload :SpecificationField, "vtex/models/specification_field"
 
 
   # Resources
