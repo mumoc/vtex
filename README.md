@@ -176,6 +176,7 @@ client.sku #=> SkuResource
 * `client.sku.sku_id_by_ref_id(ref_id: 'ref_id')`
 * `client.sku.sku_by_ean(ean: 'ean')`
 * `client.sku.sku_by_alternate_id(ean: 'ean')`
+* `client.sku.sku_list_by_product_id(product_id: 'product_id')`
 
 ## Specification
 
@@ -192,6 +193,7 @@ client.specification #=> SpecificationResource
 
 * `client.specification.specification_by_category_id(category_id: 'category_id')`
 * `client.specification.specification_tree_by_category_id(category_id: 'category_id')`
+* `client.specification.specification_value_by_field_id(field_id: 'field_id')`
 * `client.specification.specification_field(field_id: 'field_id')`
 
 ## Development

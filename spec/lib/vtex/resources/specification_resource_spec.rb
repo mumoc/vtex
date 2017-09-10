@@ -20,6 +20,14 @@ RSpec.describe Vtex::SpecificationResource do
     end
   end
 
+  describe "#specification_value_by_field_id" do
+    it "returns an array of object" do
+      stub_do_api('/api/catalog_system/pub/specification/fieldvalue/13', :get).to_return(body: api_fixture('specification/specification_value_by_field_id'))
+      response = resource.specification_value_by_field_id(field_id: 13)
+      expect(response.first).to be_kind_of(Vtex::SpecificationValueByFieldId)
+    end
+  end
+  
   describe "#specification_field" do
     it "returns an object" do
       stub_do_api('/api/catalog_system/pub/specification/fieldGet/13', :get).to_return(body: api_fixture('specification/specification_field'))
