@@ -10,7 +10,7 @@ module Vtex
       end
 
       action :specification_field, 'GET /api/catalog_system/pub/specification/fieldGet/:field_id' do
-        handler(200) { |rsponse| SpecificationFieldMapping.extract_single(response.body, :read) }
+        handler(200) { |response| SpecificationFieldMapping.extract_single(response.body, :read) }
       end
     end
   end
