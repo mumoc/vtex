@@ -1,0 +1,21 @@
+{
+    "Name": "Tamanho",
+    "CategoryId": 5,
+    "FieldId": 13,
+    "IsActive": true,
+    "IsRequired": true,
+    "FieldTypeId": 6,
+    "FieldTypeName": "Radio",
+    "FieldValueId": null,
+    "Description": null,
+    "IsStockKeepingUnit": true,
+    "IsFilter": true,
+    "IsOnProductDetails": true,
+    "Position": 1,
+    "IsWizard": false,
+    "IsTopMenuLinkActive": false,
+    "IsSideMenuLinkActive": false,
+    "DefaultValue": null,
+    "FieldGroupId": 4,
+    "FieldGroupName": "Especificações Atributos"
+}

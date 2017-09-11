@@ -17,6 +17,7 @@ module Vtex
   autoload :Sku, "vtex/models/sku"
   autoload :Specification, "vtex/models/specification"
   autoload :SpecificationValueByFieldId, "vtex/models/specification_value_by_field_id"
+    autoload :SpecificationField, "vtex/models/specification_field"
 
 
   # Resources
@@ -38,6 +39,7 @@ module Vtex
   autoload :SkuMapping, "vtex/mappings/sku_mapping"
   autoload :SpecificationMapping, "vtex/mappings/specification_mapping"
   autoload :SpecificationValueByFieldIdMapping, "vtex/mappings/specification_value_by_field_id_mapping"
+    autoload :SpecificationFieldMapping, "vtex/mappings/specification_field_mapping"
 
   module ProductVariations
     autoload :Sku, "vtex/models/product_variations/sku"

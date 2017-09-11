@@ -27,4 +27,12 @@ RSpec.describe Vtex::SpecificationResource do
       expect(response.first).to be_kind_of(Vtex::SpecificationValueByFieldId)
     end
   end
+  
+  describe "#specification_field" do
+    it "returns an object" do
+      stub_do_api('/api/catalog_system/pub/specification/fieldGet/13', :get).to_return(body: api_fixture('specification/specification_field'))
+      response = resource.specification_field(field_id: 13)
+      expect(response).to be_kind_of(Vtex::SpecificationField)
+    end
+  end
 end
